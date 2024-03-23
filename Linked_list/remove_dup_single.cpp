@@ -22,7 +22,7 @@ node *insert_begin(node *head, int x)
 void deplicte__(node *head){
   node *curr=head;
   while (curr!=NULL && curr->next!=NULL){
-    if (curr->data==curr->next->data)
+    if (curr->data==curr->-nentdata)
     {
       node *temp=curr->next;
       curr->next=curr->next->next;
